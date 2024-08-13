@@ -1,11 +1,35 @@
 body {
   margin: 0;
 }
-div {
+.top-container {
   background-color: #e4f9f5;
   
 }
 
 h1{
   margin-top: 0;
+}
+.middle-container{
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.bottom-container{
+  display: inline-block;
+  position: relative;
+  right: 200px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.bottom-btn-container{
+  display: inline-block;
+  position: relative;
+  right: 200px;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
 }
