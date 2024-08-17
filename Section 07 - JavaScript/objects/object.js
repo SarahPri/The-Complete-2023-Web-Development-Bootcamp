@@ -14,6 +14,9 @@ function HouseKeeper(name, age, location, cleaningRepertoire) {
   this.age = age;
   this.location = location;
   this.cleaningRepertoire = cleaningRepertoire;
+  this.clean = function () {
+    alert("Cleaning in Progress...");
+  };
 }
 
 // creating a housekeeper info while using the constructor
@@ -23,4 +26,5 @@ let houseKeeper1 = new HouseKeeper("Gladys", 35, "Eldoret", [
   "Washing Dishes",
   "Care Giver",
 ]);
-console.log(houseKeeper1.cleaningRepertoire[2]);
+console.log(houseKeeper1.clean());
+// alert("Cleaning in Progress!")
