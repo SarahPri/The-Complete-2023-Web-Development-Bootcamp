@@ -10,7 +10,11 @@
 
 // console.log(randomSuperhero);
 
-import superheroes from "superheroes";
+// import superheroes from "superheroes";
 
-const randomSuperhero = superheroes.random();
-console.log(randomSuperhero);
+// const randomSuperhero = superheroes.random();
+// console.log(randomSuperhero);
+
+import supervillains from "supervillains";
+
+supervillains;

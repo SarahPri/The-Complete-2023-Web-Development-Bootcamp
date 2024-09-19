@@ -9,6 +9,7 @@
   "author": "Sarah Wanyeki",
   "license": "ISC",
   "dependencies": {
-    "superheroes": "^4.0.0"
+    "superheroes": "^4.0.0",
+    "supervillains": "^4.0.0"
   }
 }
